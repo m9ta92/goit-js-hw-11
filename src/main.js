@@ -49,9 +49,6 @@ function onSearchFormSubmit(event) {
     .catch(err => {
       console.log(err);
     });
-  //
-  // searchFormEl.reset();
-  //
 }
 //
 searchFormEl.addEventListener('submit', onSearchFormSubmit);
